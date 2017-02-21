@@ -1,14 +1,25 @@
-Krysta Knight
-Compilers 12/13/16
+Krysta Knight - 12/13/16
+Compilers 
+CS 4280
 Final Project
 
-P1: Table Driven Scanner is in ScannerIn.java
-P3/P4: Local
+This project takes .fs16 code and compiles it into .asm code.
 
-Will take input from the keyboard if invoked as: 
-comp
+Project was ran and compiled in a unix environment.
 
-otherwise: 
-comp file
+-------How to run--------
+Will take input from the keyboard if invoked as: comp
+Otherwise: comp filename
 
-will take imput from file.
+------------Files------------
+comp.java : main executable
+ScannerIn.java : Reads in file and creates tokens
+Parser.java : takes tokens from scanner and parses them checking for static semantics
+codeGenjava : takes tokens from scanner and outputs .asm code
+SS.java : stack support
+support.java : general supporting functions
+Token.java : token class
+Node.java : node class
+
+project.fs16 : input file
+out.asm : output file
